@@ -1,8 +1,13 @@
 module.exports = [
     {
+      type: 'input',
+      name: 'name',
+      message: 'input this project name',
+    },
+    {
       type: 'confirm',
       name: 'private',
-      message: 'ths resgistery is private?',
+      message: 'this resgistery is private?',
     },
     {
       type: 'input',
