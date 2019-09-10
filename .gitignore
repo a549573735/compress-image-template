@@ -1,0 +1,12 @@
+
+*.zip
+node_modules
+/dist/
+upload.php
+gulpfile.js
+getimgpath.php
+*.mp4
+*.psd
+*.rar
+.DS_Store
+public/.sass-cache/
