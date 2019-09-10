@@ -1,7 +1,4 @@
 import { Resources } from './fsresour';
-import { DataStore } from './DataStore';
-import { Howl } from 'howler';
-import { isLongPhone } from '../runtime/util'
 
 class ResourceLoader {
     constructor(loadCb, mainCb) {
@@ -33,7 +30,6 @@ class ResourceLoader {
             this.loadCb(...args,this.app)
         }).onComplete.add(() => {
             const loader = new PIXI.Loader();
-            this.DataStore = DataStore.getInstance();
             // this.DataStore.musics=musics;
             loader.add(Resources).on("progress", this.handleProgress.bind(this)).load(this.mainCb)
         });
