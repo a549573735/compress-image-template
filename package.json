@@ -1,7 +1,7 @@
 {
   "name": "test-webpack",
   "version": "1.0.0",
-  "description": "",
+  "private": "<%=private%>",
   "main": "index.js",
   "sideEffects": [
     "*.css",
@@ -11,8 +11,9 @@
     "image": "export NODE_ENV=production && node ./node.js "
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "autor":"<%=author%>",
+  "description": "<%=description%>",
+  "license": "<%=license%>",
   "devDependencies": {
     "@babel/core": "^7.4.5",
     "@babel/plugin-proposal-class-properties": "^7.4.4",
