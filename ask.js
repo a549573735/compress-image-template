@@ -23,5 +23,6 @@ module.exports = [
       type: 'input',
       name: 'license',
       message: 'license?',
+      default:"MIT"
     },
   ]
