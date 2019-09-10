@@ -1,5 +1,5 @@
 {
-  "name": "test-webpack",
+  "name": "<%=name%>",
   "version": "1.0.0",
   "private": "<%=private%>",
   "main": "index.js",
